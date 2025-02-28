@@ -1,0 +1,114 @@
+.toggleButton {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  font-size: large;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background-color: rgb(59, 116, 123);
+  border: none;
+  color: rgb(255, 242, 141);
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+  transition: background 0.3s ease-in-out;
+}
+
+.toggleButton:hover {
+  background-color: #54ac8a;
+}
+
+.toggleButton:focus {
+  outline: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.todoItem {
+  background-color: rgb(251, 238, 238);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 0 25px 0 25px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 2);
+  border-bottom: 4px solid #407ca3;
+}
+
+.todoItem:hover {
+  transform: scale(1.02);
+}
+
+.todoTitle {
+  font-size: 26px;
+  margin-left: 30px;
+  font-weight: bold;
+  color: #337ac0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.removeButton {
+  background: linear-gradient(135deg, #e07233, #e77327);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin-left: 30px;
+  padding: 5px 10px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background 0.2s ease-in-out;
+}
+
+.removeButton:hover {
+  background: linear-gradient(135deg, #c02113, #b60404);
+}
+
+button[type="submit"] {
+  background: rgb(59, 116, 123);
+  border: none;
+  border-radius: 5px;
+  padding: 2.8% 18px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 1.5);
+}
+
+button[type="submit"]:hover {
+  background: rgb(60, 174, 85);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 1.5);
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.doneItem {
+  background-color: #e5fadd;
+}
+
+.editButton {
+  background-color: rgb(92, 133, 187);
+  color: white;
+  margin-left: 5%;
+  padding: 0.67% 2% 0.61% 2%;
+  border-radius: 15%;
+  border-color: rgb(123, 174, 201);
+}
+
+.editButton:hover {
+  background-color: rgb(61, 85, 155);
+  cursor: pointer;
+}
+
+.saveButton {
+  background-color: rgb(49, 135, 95);
+  color: white;
+  margin-left: 5%;
+  padding: 0.61% 2% 0.61% 2%;
+  border-radius: 15%;
+  border-color: rgb(114, 171, 236);
+}
+
+.saveButton:hover {
+  background-color: rgb(60, 174, 85);
+  cursor: pointer;
+}
